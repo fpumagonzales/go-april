@@ -8,7 +8,7 @@ func TestSum(t *testing.T) {
 	sum1 := sumElements(e1)
 
 	if sum1 != expectedSum {
-		t.Errorf("Expected sum %d, but got ", sum1)
+		t.Errorf("Expected sum %d, but got %d", expectedSum, sum1)
 
 	}
 
