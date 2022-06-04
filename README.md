@@ -11,9 +11,9 @@ type elements []int
 This function is attached to ```elements```
 ```go
 func (e elements) print() {
-	for _, item := range e {
-		fmt.Println(item)
-	}
+  for _, item := range e {
+    fmt.Println(item)
+  }
 
 }
 ```
