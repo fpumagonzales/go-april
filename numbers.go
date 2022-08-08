@@ -19,3 +19,8 @@ func (e elements) print() {
 	}
 
 }
+
+func avgElements(e elements) int {
+	sum := sumElements(e)
+	return sum / len(e)
+}
