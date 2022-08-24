@@ -24,3 +24,13 @@ func avgElements(e elements) int {
 	sum := sumElements(e)
 	return sum / len(e)
 }
+
+func minElement(s elements) int {
+	min := s[0]
+	for i := 1; i < len(s); i++ {
+		if min > s[i] {
+			min = s[i]
+		}
+	}
+	return min
+}
