@@ -25,3 +25,15 @@ func TestMin(t *testing.T) {
 	}
 
 }
+
+func TestMin02(t *testing.T) {
+	e1 := elements{34, 12, 3, 1, 5, -14}
+	expectedSum := -14
+	sum1 := minElement(e1)
+
+	if sum1 != expectedSum {
+		t.Errorf("Expected sum %d, but got %d", expectedSum, sum1)
+
+	}
+
+}
